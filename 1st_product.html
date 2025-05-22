@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet">
+    <title>Tailwind Example</title>
+
+</head>
+<body class="bg-gray-100 text-center p-10"></body>
+    <nav class="bg-white shadow-md space-between-0 sticky top-0">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <!-- Logo -->
+                <div class="flex-shrink-0 text-xl font-bold width-600">
+                    <img src="D:\ASD\Screenshot 2025-05-09 165656.jpg" alt="logo" width="150" >
+                </div>
+
+                <!-- Links -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="D:\frontp\index.html" class="text-gray-700 hover:text-blue-600 font-medium">Home</a>
+                    <a href="D:\frontp\about.html" class="text-gray-700 hover:text-blue-600 font-medium">About</a>
+                    <a href="D:\frontp\login.html" class="text-gray-700 hover:text-blue-600 font-medium">Login</a>
+                    <a href="#" class="text-gray-700 hover:text-blue-600 font-medium">Cart</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="text-gray-600 body-font overflow-hidden border-1 border-gray-400 m-1.5">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="lg:w-fit mx-auto flex flex-wrap">
+      <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="data:image/jpeg;base64,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">
+      <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+        <h2 class="text-sm title-font text-gray-500 tracking-widest">BRAND NAME</h2>
+        <h1 class="text-gray-900 text-3xl title-font font-medium mb-1">Men Grey Solid Single-Breasted Slim-Fit Formal Blazer</h1>
+        <div class="flex mb-4 m-2.5">
+          <span class="flex items-center">
+            <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-blue-500" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg>
+            <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-blue-500" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg>
+            <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-blue-500" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg>
+            <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-blue-500" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg>
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-blue-500" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg>
+            <span class="text-gray-600 ml-3">4 Reviews</span>
+          </span>
+          <span class="flex ml-3 pl-3 py-2 border-l-2 border-gray-200 space-x-2s">
+            <a class="text-gray-500">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+              </svg>
+            </a>
+            <a class="text-gray-500">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+              </svg>
+            </a>
+            <a class="text-gray-500">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+              </svg>
+            </a>
+          </span>
+        </div>
+        <p class="text-xl text-black ">Specifications:</p>
+        <p class="leading-relaxed">
+          Closure : Button,
+          Collar : Notched Lapel,
+          Fabric : Polycotton,
+          Fit : Slim Fit,
+          Front Styling : Single-Breasted,
+          Length : Regular,
+          Lining Fabric : Cotton,
+          Occasion : Formal,
+          Pattern : Solid,
+          Sleeve Length : Long Sleeves,
+          Sustainable : Regular,
+          Wash Care : Hand Wash,
+        </p>
+        <div class="flex mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5">
+          <div class="flex">
+            <span class="mr-3">Color</span>
+            <button class="border-2 border-gray-300 ml-1 bg-gray-400 rounded-full w-6 h-6 focus:outline-none"></button>
+            <button class="border-2 border-gray-300 ml-1 bg-gray-700 rounded-full w-6 h-6 focus:outline-none"></button>
+            <button class="border-2 border-gray-300 ml-1 bg-blue-500 rounded-full w-6 h-6 focus:outline-none"></button>
+          </div>
+          <div class="flex ml-6 items-center">
+            <span class="mr-3">Size</span>
+            <div class="relative">
+              <select class="rounded border appearance-none border-gray-300 py-2 focus:outline-none focus:ring-2 focus:ring-blue-200 focus:border-blue-500 text-base pl-3 pr-10">
+                <option>SM</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+              </select>
+              <span class="absolute right-0 top-0 h-full w-10 text-center text-gray-600 pointer-events-none flex items-center justify-center">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4" viewBox="0 0 24 24">
+                  <path d="M6 9l6 6 6-6"></path>
+                </svg>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="flex">
+          <span class="title-font font-medium text-2xl text-gray-900">₹13,999.00</span>
+          <button class="flex ml-auto text-white bg-yellow-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-700 rounded">Buy</button>
+          <button class="rounded-full w-10 h-10 bg-gray-200 p-0 border-0 inline-flex items-center justify-center text-gray-500 ml-4">
+            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+              <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</body>
+</html>
